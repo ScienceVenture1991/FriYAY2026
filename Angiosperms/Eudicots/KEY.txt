@@ -1,0 +1,19 @@
+EUDICOTS - If your flower has 4 or 5 petals? Congrats. That is most flowers. Don't be alarmed by the directory size! Remember you can always go back.
+
+================
+
+Question about their flower?
+
+  Asterales         Looks like one flower, is actually a lot of tiny flowers
+  Caryophyllales    Frilly edges
+  Lamiales          Strong scent, lots of small flowers in a spike or cluster
+  Malpighiales      Dark markings on the petals
+  Malvales          Big, trumpet-shaped flowers
+  Proteales         Grow in muddy water, but the flower pokes from the surface
+  Ranunculales      Thin, papery petals
+  Rosales           5 petals in the wild, cousins with apples and strawberries
+  Saxifragales      Petals are soft-textured and have a ruffled look about them
+
+================
+
+Wrong turn? cd .. to go back.

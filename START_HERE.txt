@@ -1,0 +1,28 @@
+==============
+
+The Plantae Archive
+
+==============
+
+Welcome! This was designed assuming you weren't interested in plant nomenclature (or plants in general). This is sorted the way many scientists actually sort plants (kind of). Your favourite flower is here somewhere and your job is to find it!
+
+But there's a catch! We won't be clicking-and-dragging files. All of this will be done from the command line. 
+
+As you know by now, to move around:
+
+    dir                 see what is in this folder
+    type FILE.txt       read a file
+    cd FOLDER           go into a folder
+    cd ..               go back up one folder
+
+Every folder has a KEY.txt, this will be very helpful in finding your flower! Read it, decide where to go next, and cd there. If you take a wrong turn, just use cd .. to back up and try again.
+
+Ignore the Herbarium folder for now. 
+
+All flowers are Angiosperms! Your first job is to use:
+
+    cd Angiosperms
+    type KEY.txt
+
+If you can't pick a flower:
+    type SUGGESTED.txt

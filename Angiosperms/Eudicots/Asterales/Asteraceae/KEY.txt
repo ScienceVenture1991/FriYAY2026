@@ -1,0 +1,12 @@
+ASTERACEAE - Over 30,000 species, one of the biggest plant families on Earth (i have not listed all of them here...)
+
+================
+
+  Bellis        White petals, yellow centre, grows in lawns
+  Dahlia        Perfectly layered petals
+  Helianthus    Giant, yellow, and turns to face the sun 
+  Taraxacum     Yellow, eventually turns into a puff that spreads seeds in the wind
+
+================
+
+Wrong turn? cd .. to go back.

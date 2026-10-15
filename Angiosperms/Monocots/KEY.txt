@@ -1,0 +1,11 @@
+MONOCOTS - Flowers with parts in 3s
+Grasses, palms, and bananas are all monocots!
+
+================
+
+  Asparagales    Something notable: a cup in the middle, a lip, or droopy petals
+  Liliales       Six matching petals
+
+================
+
+Wrong turn? cd .. to go back.
