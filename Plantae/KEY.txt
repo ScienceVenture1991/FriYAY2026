@@ -1,0 +1,17 @@
+Welcome to the kingdom of Plantae! The words are long, and they describe increasingly convoluted structures. 
+
+================
+
+We won't make you learn everything about plants. Here's a basic rundown!
+
+Bryophyta      Mosses
+Pteridophyta   Ferns
+Gymnosperms    Non-flowering seed plants
+Angiosperms    Flowering plants (Also, the biggest, over 300k species!)
+
+================
+
+You're looking for a flower. Which folder do you think it's in?
+
+    cd FolderName
+

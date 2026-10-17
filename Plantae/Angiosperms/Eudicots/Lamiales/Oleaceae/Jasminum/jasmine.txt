@@ -1,0 +1,27 @@
+================
+YOU FOUND IT!
+================
+
+MISSION 2: MOVE YOUR SPECIMEN
+
+1. Run dir to see your flower's filename. Then send a copy of it
+   to the Herbarium:
+
+	copy yourflower.txt ..\..\..\..\..\Herbarium
+
+   Each ..\ means "one folder up." You're five folders below
+   Plantae, so you'll need five in total
+
+2. Climb back up to Plantae:
+     cd ..      (five times)
+
+3. Go into the Herbarium and check your file arrived:
+     cd Herbarium
+     dir
+
+4. Make a folder with your name (no spaces) and move your file in:
+     mkdir YourName
+     move yourflower.txt YourName
+
+5. Read your next mission:
+     type NOTICE.txt

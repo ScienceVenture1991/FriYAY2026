@@ -1,0 +1,11 @@
+CARYOPHYLLACEAE - Carnations are among the longest-lasting cut flowers. They make great gifts!
+
+================
+
+Only one genus lives here!
+
+  cd Dianthus
+
+================
+
+Wrong turn? cd .. to go back.

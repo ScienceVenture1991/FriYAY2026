@@ -1,0 +1,11 @@
+ASPARAGALES - Named after asparagus, of all things. Orchids, onions, aloe, vanilla, and saffron all live in this order!
+
+================
+
+  Amaryllidaceae    A cup or "tube" sticks out of the middle of the petals
+  Iridaceae         Three petals stand up, three flop down
+  Orchidaceae       One petal is a big fancy lip
+
+================
+
+Wrong turn? cd .. to go back.

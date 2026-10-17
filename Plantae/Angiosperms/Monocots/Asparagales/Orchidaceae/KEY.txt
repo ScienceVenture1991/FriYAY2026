@@ -1,0 +1,11 @@
+ORCHIDACEAE - One of the biggest plant families on Earth, with about 28,000 species.
+
+================
+
+Only one genus lives here!
+
+  cd Phalaenopsis
+
+================
+
+Wrong turn? cd .. to go back.
