@@ -1,9 +1,0 @@
-ASTERALES - Only one family lives here! Lettuce and artichokes are in this order too.
-
-================
-
-  cd Asteraceae
-
-================
-
-Wrong turn? cd .. to go back.

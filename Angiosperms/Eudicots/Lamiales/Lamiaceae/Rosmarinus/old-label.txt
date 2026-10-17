@@ -1,4 +1,0 @@
-SPECIMEN LABEL
-  Genus:   Rosmarinus
-  Species: Rosmarinus officinalis
-  Status:  OUTDATED. Delete this label.

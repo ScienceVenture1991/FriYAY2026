@@ -1,3 +1,0 @@
-Oops! Wrong turn. Use this instead!
-
-    cd Angiosperms
