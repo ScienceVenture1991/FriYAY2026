@@ -23,6 +23,3 @@ All flowers are Angiosperms! Your first job is to use:
 
     cd Angiosperms
     type KEY.txt
-
-If you can't pick a flower:
-    type SUGGESTED.txt
