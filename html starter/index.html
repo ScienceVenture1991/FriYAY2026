@@ -1,0 +1,84 @@
+<!-- Hello! We're assuming you're new to HTML, if you aren't,
+ please ignore the comments and write whatever you feel like -->
+
+<!DOCTYPE html> <!-- this goes in EVERY html website -->
+<html lang="en"> <!-- this tells the computer the language of your website -->
+
+<!-- This is the head! It holds info about your site, but nothing in here shows up on the page -->
+<head>
+  <meta charset="utf-8"> <!-- this is your charset! utf-8 is the standard for the web. there's some cool
+  documentation on other ones, though they're mostly historical -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- this makes your site scale properly on phones -->
+  <title>[your website name]</title> <!-- this appears in the tab above your website -->
+</head>
+
+<!-- This is the body! These are the things that actually appear on your website -->
+<body>
+  <div class="page"> <!-- this won't do much today, but when we go over how to customize CSS pages it'll help a lot -->
+
+    <!-- This is the header, the visible top of your page. I recommend not using your real name in the h1.
+    A nickname, username, or a separate name entirely works well here. Maybe you want to make a website
+    about a real-world event, or books you've read, or a show/movie you liked (or didn't like). Remember you can always
+    start again or change your site later! -->
+    <header class="section header">
+      <h1>Title of Website</h1>
+    </header>
+
+    <!-- This is the welcome section! Welcome people to your site and tell them a bit about what it's about! -->
+    <section class="section welcome">
+      <h2>Welcome!</h2> <!-- h1 is the biggest heading, then h2, h3... all the way down to h6 -->
+      <p>Welcome to my website!</p>
+      <p>You can make text <b>bold</b>, <i>italic</i>, <u>underlined</u>, or <s>crossed out</s>.</p>
+    </section>
+
+    <!-- Toolkit: Everything below is an example. Copy, paste, change, or delete whatever you want! -->
+    <section class="section toolbox">
+      <h2>Toolbox</h2>
+
+      <!-- LISTS: ul = bullet points (unordered), ol = numbered (ordered). each item is an li -->
+      <h3>Unordered List: (If you're out of ideas, list your favs or least favourites of something)</h3>
+      <ul>
+        <li>Try adding another item!</li>
+      </ul>
+
+      <h3>Things that can be in an order: (if you're out of ideas, rank something)</h3>
+      <ol>
+        <li>best</li>
+        <li>second best</li>
+        <li>still pretty good</li>
+      </ol>
+
+      <!-- LINKS: href is where the link goes. target="_blank" opens it in a new tab -->
+      <h3>Links</h3>
+      <p>Check out <a href="https://neocities.org" target="_blank">Neocities</a> for more cool sites.</p>
+      <p>Or go to my <a href="about.html">about page</a> (this one links to another file in your folder!)</p>
+
+      <!-- IMAGES: src is the file, alt describes the picture for people who can't see it.
+      put your images in your images folder! -->
+      <h3>Images</h3>
+      <img src="images/your-picture.png" alt="describe your picture here" width="200">
+
+      <!-- BUTTONS: this one doesn't do anything yet. we'll make buttons do actual stuff when we learn javascript! -->
+      <h3>Buttons</h3>
+      <button>click me!</button>
+
+      <!-- DETAILS: a dropdown that opens and closes, no javascript needed -->
+      <h3>What's this dropdown menu?</h3>
+      <details>
+        <summary>click to reveal</summary>
+        <p>write something here</p>
+      </details>
+
+      <!-- LINE: hr draws a line across the page to split things up -->
+      <hr>
+
+      <!-- MARQUEE: scrolling text, very old-school internet. it's "deprecated" (officially retired),
+      but browsers still support it and it's a classic -->
+      <marquee>this text scrolls across the screen!! You can also put images here</marquee>
+    </section>
+
+    <!-- Now that you have the basics down, try making your own section below! -->
+
+  </div>
+</body>
+</html>
