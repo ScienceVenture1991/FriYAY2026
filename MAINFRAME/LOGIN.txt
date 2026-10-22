@@ -1,0 +1,6 @@
+========================================
+  MAINFRAME SECURITY
+  ACCESS DENIED
+========================================
+Admin password required.
+3 attempts remaining.
