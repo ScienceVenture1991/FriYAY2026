@@ -1,0 +1,148 @@
+/* This is your CSS file! HTML is what's on your page, CSS is how it looks.
+   Change any value, save, and refresh your browser to see what happens. */
+
+
+/* YOUR COLOURS + FONTS
+   These are all variables. Change them here and they change everywhere on your site.
+   Colours can be names (hotpink, yellow) or hex codes (#ff69b4).
+   Find colours at https://htmlcolorcodes.com */
+:root {
+  --background: #fdf6ff; /* behind everything */
+  --box: #ffffff; /* inside your sections */
+  --text: #2b2433; /* normal writing */
+  --accent: #9b5de5; /* headings, links, borders */
+  --accent-light: #e9d8fd; /* softer version of the accent */
+
+  --font-headings: Georgia, serif;
+  --font-body: Verdana, sans-serif;
+}
+
+
+/* PAGE (the whole thing) */
+* {
+  box-sizing: border-box; /* makes sizes behave the way you'd expect. leave this one alone! */
+}
+
+body {
+  margin: 0;
+  padding: 24px 16px;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6; /* space between lines of text */
+}
+
+/* .page is the div wrapped around everything. this keeps your site from stretching super wide */
+.page {
+  max-width: 800px;
+  margin: 0 auto; /* auto on the sides centres it */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* space between your sections */
+}
+
+
+/* SECTIONS
+   Every section has class="section" (check your html file), so this styles all of them at once */
+.section {
+  background-color: var(--box);
+  border: 3px solid var(--accent);
+  border-radius: 12px; /* rounded corners. try 0 for sharp corners or 30px for very round */
+  padding: 20px;       /* space inside the box */
+}
+
+/* you can also style ONE section on its own using its other class (check class="" in html to find the name) */
+.header {
+  text-align: center;
+  background-color: var(--accent-light);
+}
+
+
+/* HEADINGS + TEXT - this changes your headings! */
+h1, h2, h3 {
+  font-family: var(--font-headings);
+  color: var(--accent);
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem; /* rem = relative to normal text size. 2.5rem is 2.5x bigger */
+  margin-bottom: 0;
+}
+
+
+/* LINKS */
+a {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+/* :hover = when your mouse is over it */
+a:hover {
+  background-color: var(--accent);
+  color: var(--box);
+}
+
+
+/* IMAGES */
+img {
+  max-width: 100%; /* stops big pictures from spilling off the page */
+  border: 3px solid var(--accent);
+  border-radius: 8px;
+}
+
+
+/* BUTTONS */
+button {
+  font-family: inherit; /* buttons don't use your font unless you tell them to! */
+  font-size: 1rem;
+  background-color: var(--accent);
+  color: var(--box);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer; /* turns the mouse into a pointing hand */
+}
+
+button:hover {
+  background-color: var(--text);
+}
+
+
+/* DROPDOWN (details) */
+details {
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/* LINE (hr) */
+hr {
+  border: none;
+  border-top: 3px dotted var(--accent); /* try solid, dashed, or double */
+  margin: 20px 0;
+}
+
+
+/* MARQUEE */
+marquee {
+  background-color: var(--accent-light);
+  padding: 6px;
+  border-radius: 8px;
+}
+
+
+/* YOUR TURN!
+
+   Some things to try:
+   - change the colours and fonts at the top
+   - give .welcome its own background colour
+   - make your h1 bigger, or add the line 'text-shadow: 3px 3px 0 hotpink;'
+   - add a background image to body: 'background-image: url("images/your-pattern.png");'
+*/
