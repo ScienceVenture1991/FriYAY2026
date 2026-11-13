@@ -1,0 +1,107 @@
+/* 
+   quiz.css
+   Styles just for your quizzes, change whatever you'd like!
+
+   The javascript adds these classes to answer buttons when you click:
+     .picked   the answer you clicked
+     .correct  a right answer (trivia only)
+     .wrong    a wrong answer you picked (trivia only)
+   So you can style them below to make right and wrong answers look different.
+
+   The colours use the variables from your style.css. If you don't have those,
+   the second colour in each var() is used instead.
+    */
+
+/* this makes sure hidden things actually stay hidden. leave this one alone! */
+.quiz [hidden] {
+  display: none !important;
+}
+
+/* the whole quiz box */
+.quiz {
+  padding: 16px;
+  border: 3px dashed var(--accent, #9b5de5);
+  border-radius: 12px;
+}
+
+/* "question 1 of 3" */
+.progress {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* each question */
+.question h3 {
+  margin-top: 0;
+}
+
+/* the answer buttons */
+.answer {
+  display: block;    /* one answer per line. try inline-block to put them side by side */
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 1rem;
+  text-align: left;
+  background-color: var(--box, #ffffff);
+  color: var(--text, #2b2433);
+  border: 3px solid var(--accent, #9b5de5);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.answer:hover {
+  background-color: var(--accent-light, #e9d8fd);
+}
+
+/* after you click, the buttons are "disabled" so you can't click again */
+.answer:disabled {
+  cursor: default;
+}
+
+/* the answer you clicked */
+.answer.picked {
+  font-weight: bold;
+}
+
+/* right answer: green */
+.answer.correct {
+  background-color: #c8f7c5;
+  border-color: #2e9e44;
+}
+
+/* wrong answer: red */
+.answer.wrong {
+  background-color: #ffd1d1;
+  border-color: #d63c3c;
+}
+
+/* "correct!" / "not quite!" */
+.feedback {
+  font-weight: bold;
+  min-height: 1.5em; /* saves space so the page doesn't jump around */
+}
+
+/* the end screen */
+.quiz-end {
+  text-align: center;
+}
+
+.score {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* the try again button */
+.restart {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 8px 16px;
+  background-color: var(--accent, #9b5de5);
+  color: var(--box, #ffffff);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

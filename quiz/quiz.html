@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[your quiz name]</title>
+  <link rel="stylesheet" href="style.css"> <!-- your normal site styles -->
+  <link rel="stylesheet" href="quiz.css">  <!-- styles just for quizzes -->
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="section header">
+      <h1>Quizzes!</h1>
+      <p><a href="index.html">back to my homepage</a></p>
+    </header>
+
+    <!-- HOW QUIZZES WORK
+         You only need to edit this HTML file. The javascript (quiz.js) is already written.
+         You're free to edit the .css to change the look, but it's not required!
+
+         Every quiz lives inside <div class="quiz">. There are two types:
+           data-type="trivia" - right and wrong answers, with a score at the end (like Kahoot)
+           data-type="personality" - no wrong answers, you get a result at the end (like mbti)
+
+         Every question is a <div class="question"> with an h3 and some answer buttons.
+         Want more questions -> Copy a whole question div and paste it right after the last one.
+         Want more answers -> Copy a "button". You can have as many as you want.
+         -->
+
+
+    <!-- TRIVIA QUIZ -->
+    <section class="section">
+      <h2>Trivia Quiz</h2>
+
+      <div class="quiz" data-type="trivia">
+
+        <p class="progress"></p> <!-- this fills in by itself, like "question 1 of 3" -->
+
+        <!-- put data-correct on the RIGHT answer. that's it! -->
+        <div class="question">
+          <h3>How many legs does a spider have?</h3>
+          <button class="answer">6</button>
+          <button class="answer" data-correct>8</button>
+          <button class="answer">10</button>
+          <button class="answer">a lot</button>
+          <p class="feedback"></p> <!-- "correct!" or "not quite!" shows up here -->
+        </div>
+
+        <div class="question">
+          <h3>What does HTML stand for?</h3>
+          <button class="answer">Hot Tamales Make Lunch</button>
+          <button class="answer" data-correct>HyperText Markup Language</button>
+          <button class="answer">How To Make Lasagna</button>
+          <p class="feedback"></p>
+        </div>
+
+        <div class="question">
+          <h3>Which of these is a real animal?</h3>
+          <button class="answer">a flying shark</button>
+          <button class="answer" data-correct>an axolotl</button>
+          <button class="answer">a snorkel moose</button>
+          <p class="feedback"></p>
+        </div>
+
+        <!-- this shows up when the quiz is over -->
+        <div class="quiz-end">
+          <p class="score"></p> <!-- this fills in by itself, like "You got 2 out of 3!" -->
+          <button class="restart">try again</button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- PERSONALITY QUIZ  -->
+    <section class="section">
+      <h2>Which Animal Are You?</h2>
+
+      <div class="quiz" data-type="personality">
+
+        <p class="progress"></p>
+
+        <!-- every answer gets data-result="..." with the name of the result it counts toward.
+             the result you pick the most is the one you get! -->
+        <div class="question">
+          <h3>Pick a weekend plan:</h3>
+          <button class="answer" data-result="dog">hanging out with a big group</button>
+          <button class="answer" data-result="bunny">baking something</button>
+          <button class="answer" data-result="cat">movie marathon</button>
+          <button class="answer" data-result="hamster">going on a hike</button>
+        </div>
+
+        <div class="question">
+          <h3>Pick a colour:</h3>
+          <button class="answer" data-result="dog">yellow</button>
+          <button class="answer" data-result="bunny">brown</button>
+          <button class="answer" data-result="cat">red</button>
+          <button class="answer" data-result="hamster">green</button>
+        </div>
+
+        <div class="question">
+          <h3>Your friends would describe you as:</h3>
+          <button class="answer" data-result="dog">loud</button>
+          <button class="answer" data-result="bunny">sweet</button>
+          <button class="answer" data-result="cat">mean</button>
+          <button class="answer" data-result="hamster">energetic</button>
+        </div>
+
+        <!-- the results! the data-result names here have to match the ones on your buttons EXACTLY -->
+        <div class="quiz-end">
+          <div class="result" data-result="dog">
+            <h3>You're a dog!</h3>
+            <p>woof</p>
+          </div>
+
+          <div class="result" data-result="bunny">
+            <h3>You're a bunny!</h3>
+            <p>i lowkey don't know what sound bunnies make</p>
+          </div>
+
+          <div class="result" data-result="cat">
+            <h3>You're a cat!</h3>
+            <p>meow</p>
+          </div>
+
+          <div class="result" data-result="hamster">
+            <h3>You're a hamster!</h3>
+            <p>i don't think hamsters make a sound</p>
+          </div>
+
+          <button class="restart">try again</button>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <script src="quiz.js"></script> <!-- this makes the quizzes work. you don't need to open it! -->
+</body>
+</html>
